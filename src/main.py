@@ -4,7 +4,7 @@ import redis
 import paho.mqtt.client as mqtt
 
 # Archivo de configuración
-CONFIG_FILE = "conf_dev.json"
+CONFIG_FILE = "conf.json"
 
 if not os.path.exists(CONFIG_FILE):
     raise FileNotFoundError(f"Falta el archivo de configuración: {CONFIG_FILE}")
